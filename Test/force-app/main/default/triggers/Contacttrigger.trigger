@@ -1,4 +1,5 @@
 trigger Contacttrigger on Contact (before insert) 
+//Test
 {
     for(Contact acc:Trigger.new)
         {
