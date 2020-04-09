@@ -1,0 +1,7 @@
+<apex:page standardcontroller="Document" >
+
+    <script type="text/javascript">
+            document.location.href = 'https://c.ap5.content.force.com/servlet/servlet.FileDownload?file=0157F000001rhix';
+        </script>
+
+</apex:page>

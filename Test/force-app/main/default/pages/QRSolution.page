@@ -1,0 +1,22 @@
+<apex:page StandardController="Company_c__c"  sidebar="false">
+<apex:tabPanel > 
+ <apex:tab title="Contact"> </apex:tab>
+</apex:tabPanel>
+<apex:pageBlock >
+
+<h2>  <b> <center> <font size="5" color="Blue"> <apex:pageBlockSection title="My First Component"> </apex:pageBlockSection> 
+ </font> </center> </b> </h2>
+
+</apex:pageBlock>
+
+  <h6>  <b> <center> <font size="12" color="red"> Welcome To QRSolutions </font> </center> </b> </h6>
+ <a href="http://www.qrsolutions.in//">  <center>   Please Visit QRSolution  </center>
+  </a>
+ <apex:pageBlock > 
+  <apex:pageBlockSection title=" My second Component">
+</apex:pageBlockSection>
+</apex:pageBlock>
+  This is your new Page: QRSolution
+  <!-- End Default Content REMOVE THIS -->
+
+</apex:page>

@@ -1,0 +1,14 @@
+<apex:page controller="AccountInsert" TabStyle="Account">
+<Apex:form >
+<Apex:PageBlock Title="Customer Information">
+<Apex:PageBlockButtons location="Bottom">
+<Apex:commandButton action="{!save}" value="Save"/>
+</Apex:PageBlockButtons>
+<Apex:pageBlockSection Title="Account Information">
+ <apex:inputField value="{!AccountInsert.name}"/>
+ <apex:inputField value="{!AccountInsert.site}"/>
+</Apex:pageBlockSection>
+
+</Apex:PageBlock>`            `
+</Apex:form>
+</apex:page>

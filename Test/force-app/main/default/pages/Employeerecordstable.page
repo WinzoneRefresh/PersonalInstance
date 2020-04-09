@@ -1,0 +1,17 @@
+<apex:page standardController="case" recordSetVar="records" sidebar="false">
+<apex:form >
+<apex:pageBlock >
+<apex:pageBlockTable value="{!records}" var="r">
+<apex:column headerValue="Case Number">
+<apex:outputlink value="https://ap5.salesforce.com/{!r.Id}">{!r.casenumber}</apex:outputlink>
+</apex:column>
+<apex:column value="{!r.casenumber}"/>
+<apex:column value="{!r.subject}"/>
+<apex:column value="{!r.status}"/>
+<apex:column value="{!r.priority}"/>
+<apex:column value="{!r.Origin}"/>
+</apex:pageBlockTable>
+</apex:pageBlock>
+<h1><apex:outputLink value="https://www.google.co.in/">Google</apex:outputLink></h1>
+</apex:form>
+</apex:page>

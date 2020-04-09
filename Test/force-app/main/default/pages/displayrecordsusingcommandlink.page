@@ -1,0 +1,13 @@
+<apex:page standardController="case" recordSetVar="records" sidebar="false">
+<apex:form >
+<apex:pageBlock >
+<apex:pageBlockTable value="{!records}" var="r">
+<apex:column value="{!r.casenumber}"/>
+<apex:column value="{!r.subject}"/>
+<apex:column value="{!r.status}"/>
+<apex:column value="{!r.priority}"/>
+<apex:column value="{!r.Origin}"/>
+</apex:pageBlockTable>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

@@ -1,0 +1,32 @@
+<apex:page controller="accountSearcher" docType="html-5.0">
+<center><h1>Account Search Page</h1></center>
+<apex:form id="editForm">
+   Start Date: <apex:input type="date" value="{!startDate}" required="true" />
+End Date: <apex:input type="date" value="{!endDate}" required="true" />
+   <apex:commandButton action="{!searchAccount}" value="Search" reRender="dataWrapperPanel" lang="End Date"/>
+
+   <apex:outputPanel id="dataWrapperPanel">
+      <apex:pageBlock title="Account List" id="dataBlock" rendered="{! showResult }">
+        
+              <apex:pageBlockTable value="{!accList}" var="acc" >
+              <apex:column headerValue="Account">
+                 <apex:outputfield value="{!acc.Name}" />  
+                 </apex:column>
+                 
+            
+            <apex:column headerValue="Site">
+               <apex:inputField value="{!acc.Site}" />  
+            </apex:column>
+              </apex:pageBlockTable>
+         
+       <apex:pageBlockButtons >
+        <apex:commandButton value="Save" action="{!save}" />
+              </apex:pageBlockButtons>  
+              
+              
+      </apex:pageBlock>
+      
+      <!---<apex:outputLabel id="noRecFound" rendered="{! blnNoResultFound }">No Record Found !!!</apex:outputLabel>-->
+   </apex:outputPanel>
+ </apex:form>
+ </apex:page>

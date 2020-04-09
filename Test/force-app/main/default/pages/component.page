@@ -1,0 +1,7 @@
+<apex:page tabStyle="Account"> 
+    <apex:pageBlock >
+        <apex:pageBlockSection title="myComponent Test" collapsible="false">
+            
+        </apex:pageBlockSection>
+    </apex:pageBlock>     
+</apex:page>

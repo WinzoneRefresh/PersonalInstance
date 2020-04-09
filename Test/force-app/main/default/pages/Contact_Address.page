@@ -1,0 +1,21 @@
+<apex:page standardController="Contact">
+<!--- 
+    <apex:variable value="{!Contact.Site_Street__c},{!Contact.Site_City__c},{!Contact.Site_State__c} {!Contact.Site_Zip_Code__c},{!Contact.Site_Country__c}" var="address" />
+
+    <apex:map   width="600px"
+                height="300px"
+                mapType="roadmap"
+                center="{!address}">
+
+        <apex:mapMarker title="{!address}"
+                        position="{!address}">
+
+                <apex:mapInfoWindow>
+                    <apex:outputText>{!address}</apex:outputText>
+                </apex:mapInfoWindow>
+
+        </apex:mapMarker>
+
+    </apex:map>
+    --->
+</apex:page>

@@ -1,0 +1,6 @@
+<apex:page StandardController="Document" extensions="DocumentImageCheck" renderAs="PDF" >
+<apex:form >
+<apex:image value="{!imageURL}"/>
+</apex:form>
+
+</apex:page>

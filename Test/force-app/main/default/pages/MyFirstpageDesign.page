@@ -1,0 +1,26 @@
+<apex:page sidebar="false" standardController="Contact" recordSetVar="records">
+  <apex:form >
+      <apex:pageBlock >
+          <apex:pageBlockSection >
+              <apex:pageBlockTable value="{!records}" var="r">
+                  <apex:column headerValue="Name">
+                    <apex:commandLink value="{!r.Name}" rerender="out" status="mystatus">    
+                    <apex:param name="rId" value="{!r.Id}"/ >                  
+                    </apex:commandLink>
+                  </apex:column>
+                    </apex:pageBlockTable>
+          </apex:pageBlockSection>
+      </apex:pageBlock>
+       <apex:pageBlock >
+      <apex:actionstatus id="mystatus" startText="Page is Loading please wait.................">
+          <apex:facet name="stop">
+              <apex:outputpanel id="out">
+                  <apex:detail subject="{!$CurrentPage.parameters.rId}" relatedList="false"/>
+              </apex:outputpanel>  
+          </apex:facet>
+      </apex:actionstatus>
+      </apex:pageBlock>
+      
+      
+       </apex:form>
+       </apex:page>

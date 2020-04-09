@@ -1,0 +1,12 @@
+<apex:page standardController="Contact"> 
+  <!-- Begin Default Content REMOVE THIS -->
+  <!----<h1>Congratulations "{!USER.lASTNAM}" WELCOME TO SALESFORCE </h1> -------->
+  <P> TODAY DATE IS {!Today()}</P>
+  <P>Next Week will be  {!Today ()+7}</P>
+  <P> The Year Today Is {!YEAR(TODAY())}</P>
+    <P> The Month Today Is {!Month(TODAY())}</P>
+    <P> The date Today Is {!Day(Today())}</P>
+ 
+  This is your new Page
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

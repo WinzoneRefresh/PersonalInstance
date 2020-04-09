@@ -1,0 +1,74 @@
+<apex:page sidebar="false" showHeader="false">
+<div style="height:65px;width:100%;background-color:Gainsboro;">
+<apex:image url="https://ssl.gstatic.com/images/logos/google_logo_41.png"  style="margin-left:15px;margin-top:10px;" />
+<span>
+<apex:outputtext value="New to Gmail?" style="font-size:18px;color:black;margin-left:800px;"/>
+</span>
+<span>
+<apex:outputtext value="CREATE AN ACCOUNT" style="font-size:20px;color:white;margin-right:1px;background-color:crimson;"/>
+</span>
+</div>
+ <div style="height:900px;width:100%;background-color:white;">
+<apex:outputtext value="Gmail" style="font-size:25px;color:red;margin-left:50px;"/><br></br><br></br>
+
+<apex:outputtext value="A Google approach to email." style="font-size:17px;color:black;margin-left:50px;"/>
+
+
+<apex:outputtext value="SIGN IN" style="font-size:15px;color:black;margin-left:600px;"/>
+<apex:outputtext value="GOOGLE" style="font-size:15px;color:DarkGray;margin-left:150px;"/>
+
+
+<p><apex:outputtext value="Gmail is built on the idea that email can be more intuitive, efficient, and useful. And maybe even fun. After" style="font-size:13px;color:black;margin-left:50px;"/></p>
+<apex:outputtext value="all,Gmail has:" style="font-size:13px;color:black;margin-left:50px;"/>
+<div style="background-color:lightgray;width:350px;margin-left:800px;position:absolute;z-index:20;">
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<apex:outputtext value="Username" style="margin-right:200px;font-size:15px"/></b><br></br><br></br>
+ <apex:form >
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<apex:inputtext style="font-size:25px"/><br></br><br></br><br></br>
+ </apex:form>
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<apex:outputtext value="password" style="font-size:15px"/></b><br></br><br></br>
+ <apex:form >
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<apex:inputtext style="font-size:25px"/><br></br><br></br><br></br>
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<apex:outputtext value="Sign in" style="font-size:20px;color:white;background-color:RoyalBlue ;"/>  &nbsp;&nbsp;&nbsp;&nbsp;
+ <span>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<apex:inputCheckbox /> 
+ </span>
+ <span>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<apex:outputtext value="stay signed in" style="font-size:14px;color:Gray"/><br></br><br></br>
+ </span>
+ </apex:form>
+ <span>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<apex:outputtext value="can't access your account?" style="font-size:15px;color:RoyalBlue ;"/>
+ </span>
+ </div>
+ <br></br><br></br> <apex:image url="https://ssl.gstatic.com/images/icons/feature/filing_cabinet-g42.png" style="margin-left:40px;"/>
+
+<apex:outputtext value="Lots of space" style="font-size:17px;color:black;margin-left:15px;"/><br></br><br></br>
+<apex:outputtext value="Over 7649.210604 megabytes (and counting) of free storage." style="font-size:13px;color:black;margin-left:95px;"/><br></br><br></br>
+<apex:image url="https://ssl.gstatic.com/images/icons/feature/nosign-r42.png" style="margin-left:40px;" />
+
+<apex:outputtext value="Less spam" style="font-size:17px;color:black;margin-left:15px;"/><br></br><br></br>
+<apex:outputtext value="Keep unwanted messages out of your inbox." style="font-size:13px;color:black;margin-left:95px;"/><br></br><br></br>
+
+<apex:image url="https://ssl.gstatic.com/images/icons/feature/mobile_phone-42.gif" style="margin-left:40px;" />
+
+<apex:outputtext value="Mobile access" style="font-size:17px;color:black;margin-left:15px;;"/><br></br><br></br>
+
+
+<apex:outputtext value="Get Gmail on your mobile phone." style="font-size:13px;color:black;margin-left:95px;"/>
+<span>
+<apex:outputtext value="Learn more" style="font-size:12px;color:blue"/></span><br></br><br></br>
+<apex:outputtext value="About Gmail" style="font-size:12px;color:blue;margin-left:95px;"/>
+<apex:outputtext value="New features!" style="font-size:12px;color:blue;margin-left:10px;"/>
+<apex:outputtext value="Switch to GmaiL" style="font-size:12px;color:blue;margin-left:10px;"/>
+<apex:outputtext value="Create an account" style="font-size:12px;color:blue;margin-left:10px;"/><br></br><br></br><br></br><br></br>
+<apex:outputtext value="Latest News from Gmail" style="font-size:12px;color:black;margin-left:95px;"/><br></br><br></br>
+<apex:outputtext value="Gmail app for iOS available in the App Store (again)" style="font-size:15px;color:blue;margin-left:95px;"/>
+<apex:outputtext value="Wed Nov 16 2011" style="font-size:15px;color:DarkGray;margin-left:5px;"/><br></br><br></br>
+<apex:outputtext value="Two weeks ago, we introduced our Gmail app for iOS. Unfortunately it contained a bug which broke " style="font-size:15px;color:black;margin-left:95px;"/><br></br>
+<apex:outputtext value="notifications ..." style="font-size:15px;color:black;margin-left:95px;"/><br></br><br></br>
+<apex:outputtext value="Follow us:" style="font-size:15px;color:DarkGray;margin-left:95px;"/>
+<apex:image url="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAAeAB4DASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgcFAP/EAC4QAAIBAgQFAgQHAAAAAAAAAAECAwQFAAYHERIhMUFRYXMTNnGyFCQlMrHB4f/EABcBAAMBAAAAAAAAAAAAAAAAAAECBQD/xAAhEQACAgIBBAMAAAAAAAAAAAABAwIEABESExQhUTFhof/aAAwDAQACEQMRAD8AY6hZ4nsVSlutiRmqKB5JJBuEB6ADz3wdsWZ89X5pVtbxS/CA4yYo1C79OZ+mMvVT5zqvbj+0Yd6d2aGhy1NLBcAZK6FZHZQN6dip9e2/fbpioYqTXjLiCT7yWJMbYlHkQB6wldM65wstwNJcZYBMgDNH8JCNiNxzGKLkrMi5ltP4kxiKeNuCZAeQPkehxG86Uz0l/lhkuT3FlRPzLncty6b7nph5oqP0+5+8n8HGspX24YAN+PjBWdPrmBPj7wrqqrLnKoLAgNFGQfI4dv6ONrTP5VzL7R+xsOM1ZSt2ZUjNVxxTxjZJo9uIDwfIwbi0shiRkivdWiv+5VQAH688KLKpoC5HRGvzGNdkHGYGwckWK1osrC2XJyDwmdQD6hf9GOXSWhDAvdKkr3AjUHDmy2mjs1vjoqCPgiT13LHuSe5w1u2ti+EMFWoyDOcs/9k=" style="margin-left:40px;" />
+<apex:image url="http://summersettfoods.com/resources/small-twitter-logo+40+x+40.png" style="margin-left:40px;"/>
+</div>
+</apex:page>
