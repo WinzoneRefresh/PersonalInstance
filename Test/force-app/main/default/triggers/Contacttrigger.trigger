@@ -4,7 +4,7 @@ trigger Contacttrigger on Contact (before insert)
         {
             if(acc.shipping_city__c=='Chennai')
                 {
-                    acc.shipping_country__C='India';
+                    acc.shipping_country__C='Indian';
                 }
         }
  }
